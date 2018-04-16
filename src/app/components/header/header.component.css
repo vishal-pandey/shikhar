@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Josefin+Sans');
+.header-toolbar{
+	height: 100px;
+	background-color: #009688;
+}
+.status{
+	height: 20px;
+	background-color: #00796B;
+}
+.fill{
+	flex: 1 1 auto;
+}
+.desktop-menu button{
+	color: #E0F2F1;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+}
+.header-toolbar h1{
+	font-family: 'Black And White Picture', sans-serif;
+	font-size: 60px;
+	color: #E0F2F1;
+}

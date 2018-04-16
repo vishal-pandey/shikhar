@@ -1,0 +1,47 @@
+.social{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 1000;
+}
+
+.social-mobile{
+	position: fixed;
+	bottom: 15px;
+	width: 100%;
+	height: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.example-sidenav{
+	width: 60%;
+}
+.hamburger-menu{
+	height: 30px;
+	overflow: hidden;
+	background-color: #4DB6AC;
+	color: #004D40;
+}
+.fill{
+	flex: 1 1 auto;
+}
+.hamburger-menu-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.hamburger-menu-content button{
+	width: 100%!important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Do Hyeon', sans-serif;
+}

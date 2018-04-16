@@ -1,0 +1,22 @@
+<header>
+	<mat-toolbar class="status"></mat-toolbar>
+	<mat-toolbar class="header-toolbar">
+		<span class="fill" *ngIf="mobile"></span>
+		<h1>Shikhar</h1>
+		<span class="fill"></span>
+		<section class="desktop-menu" *ngIf="!mobile">
+			<button mat-button>Home</button>
+			<button mat-button>About Us</button>
+			<button mat-button [matMenuTriggerFor]="serviceMenu" >Services</button>
+			<button mat-button>Contact Us</button>
+			<button mat-button>Register</button>
+		</section>
+	</mat-toolbar>
+</header>
+
+<mat-menu #serviceMenu="matMenu" [overlapTrigger]="flase" [dir]="right">
+  <button mat-menu-item>Web Developement</button>
+  <button mat-menu-item>Workshops</button>
+  <button mat-menu-item>Event Maneagement</button>
+  <button mat-menu-item>Trips and Town</button>
+</mat-menu>
